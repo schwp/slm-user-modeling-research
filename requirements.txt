@@ -1,2 +1,9 @@
 datasets
 tdqm
+ipykernel
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+ollama
