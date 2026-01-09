@@ -7,3 +7,7 @@ seaborn
 matplotlib
 scikit-learn
 ollama
+torch
+transformers
+accelerate
+dotenv

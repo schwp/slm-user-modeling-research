@@ -11,3 +11,12 @@ And also dont forget to download the data. A CSV file will be created in the `da
 ```bash
 ./download_data.sh
 ```
+
+## Env variable
+At the root of the project, make sure you have a `.env` that follows the `.env.example` 
+file format. This file only contain an Hugging Face Toekn to allow us to see the
+model weights. 
+
+To setup this token, go [Hugging Face](https://huggingface.co/). Then go to your
+Profile `Settings > Access Tokens`. From there create a `Read` access token and
+store the value of your token inside the `.env` file.
