@@ -35,11 +35,12 @@ We created a "hard" dataset by filtering out texts containing trivial gender mar
 **Key Results**:
 | Layer | Accuracy |
 |-------|----------|
-| Layer 0 (embeddings) | ~55% |
-| Middle layers (4-14) | **55-67%** |
-| Best layer | **~67%** |
+| Layer 0 (embeddings) | ~70% |
+| Middle layers (1-5) | **50-80%** |
+| Middle layers (6-18) | **40-60%** |
+| Best layer | **~80%** |
 
-> **Conclusion**: The model encodes gender-correlated information across its layers, with accuracy significantly above chance (50%), but remains subtle (~60-67%).
+> **Conclusion**: The model encodes gender-correlated information across its layers, with accuracy significantly above chance (50%), but remains subtle (~50-60%).
 
 ### Phase 3: Token Analysis
 
