@@ -57,7 +57,7 @@ We created a "hard" dataset by filtering out texts containing trivial gender mar
 **Objective**: Verify whether the identified gender representations are causally relevant by intervening on the model's activations.
 
 **Method**:
-1. Compute the "gender direction vector": $\vec{d}_{gender} = \vec{\mu}_{male} - \vec{\mu}_{female}$
+1. Compute the "gender direction vector": $`\vec{d}_{gender} = \vec{\mu}_{male} - \vec{\mu}_{female}`$
 2. Inject this vector during generation (steering)
 3. Measure the effect on pronoun usage
 
